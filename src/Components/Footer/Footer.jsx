@@ -1,8 +1,9 @@
 import "../Footer/Footer.css";
 import footerLogo from "../Assets/logo_big.png";
-import instagramIcon from "../Assets/instagram_icon.png";
-import pintesterIcon from "../Assets/pintester_icon.png";
-import whatsappIcon from "../Assets/whatsapp_icon.png";
+
+import XIcon from "@mui/icons-material/X";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import InstagramIcon from "@mui/icons-material/Instagram";
 const Footer = () => {
   return (
     <div className="footer">
@@ -20,13 +21,13 @@ const Footer = () => {
       </ul>
       <div className="footerSocialIcons">
         <div className="footerIconContainer">
-          <img src={instagramIcon} alt="" />
+          <InstagramIcon fontSize="large" />
         </div>
         <div className="footerIconContainer">
-          <img src={pintesterIcon} alt="" />
+          <XIcon fontSize="large" />
         </div>
         <div className="footerIconContainer">
-          <img src={whatsappIcon} alt="" />
+          <WhatsAppIcon fontSize="large" />
         </div>
       </div>
       <div className="footerCopyright">

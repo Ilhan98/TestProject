@@ -4,6 +4,7 @@ import logo from "../Assets/logo.png";
 import cartIcon from "../Assets/cart_icon.png";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
+import { Button } from "@mui/material";
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   const { getTotalCartItems } = useContext(ShopContext);
@@ -58,7 +59,7 @@ const Navbar = () => {
       </ul>
       <div className="navLogiCart">
         <Link to="/login">
-          <button>Login</button>
+          <Button variant="outlined">Login</Button>
         </Link>
         <Link to="/cart">
           <img src={cartIcon} alt="" />

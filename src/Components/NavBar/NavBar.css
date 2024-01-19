@@ -50,20 +50,9 @@
 .navLogiCart button {
   max-width: 150px;
   min-width: 120px;
-  height: 50px;
-  outline: none;
-  border: 1px solid gray;
-  border-radius: 75px;
-  color: #515151;
-  font-size: 20px;
-  font-weight: 500;
-  background: white;
-  cursor: pointer;
   margin-left: 30px;
 }
-.navLogiCart button:active {
-  background: #f3f3f3;
-}
+
 .navCartCount {
   width: 22px;
   height: 22px;

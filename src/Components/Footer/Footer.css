@@ -29,12 +29,12 @@
   display: flex;
   gap: 20px;
 }
-.footerIconContainer {
+/* .footerIconContainer {
   padding: 10px;
   padding-bottom: 6px;
   background: #fbfbfb;
   border: 1px solid #ebebeb;
-}
+} */
 .footerCopyright {
   display: flex;
   flex-direction: column;
